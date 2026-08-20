@@ -72,14 +72,14 @@ export default function PresenceWidget() {
   const getColors = (type) => {
     const colors = {
       spotify: {
-        bg: "from-green-500/15 to-emerald-500/10",
+        bg: "from-green-500/15 to-blue-500/10",
         border: "border-green-500/30",
         text: "text-green-400",
         badge: "bg-green-500/20 border-green-400/40",
         glow: "shadow-green-500/20"
       },
       coding: {
-        bg: "from-blue-500/15 to-indigo-500/10",
+        bg: "from-blue-500/15 to-blue-500/10",
         border: "border-blue-500/30",
         text: "text-blue-400",
         badge: "bg-blue-500/20 border-blue-400/40",
@@ -93,11 +93,11 @@ export default function PresenceWidget() {
         glow: "shadow-red-500/20"
       },
       default: {
-        bg: "from-purple-500/15 to-violet-500/10",
-        border: "border-purple-500/30",
-        text: "text-purple-400",
-        badge: "bg-purple-500/20 border-purple-400/40",
-        glow: "shadow-purple-500/20"
+        bg: "from-cyan-500/15 to-violet-500/10",
+        border: "border-cyan-500/30",
+        text: "text-cyan-400",
+        badge: "bg-cyan-500/20 border-cyan-400/40",
+        glow: "shadow-cyan-500/20"
       }
     };
     return colors[type] || colors.default;
