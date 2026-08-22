@@ -109,33 +109,7 @@ const ContactPage = () => {
 
   return (
     <div className="px-[5%] sm:px-[5%] lg:px-[10%] " >
-      <div className="text-center lg:mt-[5%] mt-10 mb-2 sm:px-0 px-[5%]">
-        <h2
-          data-aos="fade-down"
-          data-aos-duration="1000"
-          className="inline-block text-3xl md:text-5xl font-bold text-center mx-auto text-transparent bg-clip-text bg-gradient-to-r from-[#3b82f6] to-[#06B6D4]"
-        >
-          <span
-            style={{
-              color: "#3b82f6",
-              backgroundImage:
-                "linear-gradient(45deg, #3b82f6 10%, #06B6D4 93%)",
-              WebkitBackgroundClip: "text",
-              backgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-            }}
-          >
-            Hubungi Saya
-          </span>
-        </h2>
-        <p
-          data-aos="fade-up"
-          data-aos-duration="1100"
-          className="text-slate-400 max-w-2xl mx-auto text-sm md:text-base mt-2"
-        >
-          Punya pertanyaan? Kirimi saya pesan, dan saya akan segera membalasnya.
-        </p>
-      </div>
+
 
       <div
         className="h-auto py-10 flex items-center justify-center 2xl:pr-[3.1%] lg:pr-[3.8%]  md:px-0"
