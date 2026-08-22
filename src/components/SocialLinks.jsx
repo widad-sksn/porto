@@ -50,7 +50,7 @@ const SocialLinks = () => {
 
   useEffect(() => {
     AOS.init({
-      offset: 10,
+      offset: 10, once: true,
      
     });
   }, []);
@@ -101,11 +101,11 @@ const SocialLinks = () => {
             </div>
 
             {/* Text Container */}
-            <div className="flex flex-col">
+            <div className="flex flex-col min-w-0">
               <span className="text-lg font-bold pt-[0.2rem] text-gray-200 tracking-tight leading-none group-hover:text-white transition-colors duration-300">
                 {linkedIn.displayName}
               </span>
-              <span className="text-sm text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
+              <span className="text-sm text-gray-400 truncate group-hover:text-gray-300 transition-colors duration-300">
                 {linkedIn.subText}
               </span>
             </div>

@@ -130,7 +130,7 @@ export default function FullWidthTabs() {
 
   useEffect(() => {
     AOS.init({
-      once: false,
+      once: true,
     });
   }, []);
 
