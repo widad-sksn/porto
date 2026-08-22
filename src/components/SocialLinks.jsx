@@ -56,7 +56,7 @@ const SocialLinks = () => {
   }, []);
 
   return (
-    <div className="w-full bg-gradient-to-br from-white/10 to-white/5 rounded-2xl p-6 py-8 backdrop-blur-xl">
+    <div className="w-full bg-gradient-to-br from-white/10 to-white/5 rounded-2xl p-4 py-6 md:p-6 md:py-8 backdrop-blur-xl">
       <h3
         className="text-xl font-semibold text-white mb-6 flex items-center gap-2"
         data-aos="fade-down" 
@@ -71,7 +71,7 @@ const SocialLinks = () => {
           href={linkedIn.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="group relative flex items-center justify-between p-4 rounded-lg 
+          className="group relative flex items-center justify-between p-3 md:p-4 rounded-lg 
                      bg-white/5 border border-white/10 overflow-hidden
                      hover:border-white/20 transition-all duration-500"
           data-aos="fade-up"
@@ -135,7 +135,7 @@ const SocialLinks = () => {
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative flex items-center gap-3 p-4 rounded-xl 
+              className="group relative flex items-center gap-3 p-3 md:p-4 rounded-xl 
                                bg-white/5 border border-white/10 overflow-hidden
                                hover:border-white/20 transition-all duration-500"
               data-aos="fade-up" 

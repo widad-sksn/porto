@@ -145,13 +145,13 @@ const Navbar = () => {
                         : "max-h-0 opacity-0 overflow-hidden"
                 }`}
             >
-                <div className="px-4 py-6 space-y-4">
+                <div className="px-4 py-3 space-y-2">
                     {navItems.map((item, index) => (
                         <a
                             key={item.label}
                             href={item.href}
                             onClick={(e) => scrollToSection(e, item.href)}
-                            className={`block px-4 py-3 text-lg font-medium transition-all duration-300 ease ${
+                            className={`block px-4 py-2 text-base font-normal font-medium transition-all duration-300 ease ${
                                 activeSection === item.href.substring(1)
                                     ? "bg-gradient-to-r from-[#3b82f6] to-[#06B6D4] bg-clip-text text-transparent font-semibold"
                                     : "text-[#e2d3fd] hover:text-white"

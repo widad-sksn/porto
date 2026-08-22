@@ -365,7 +365,7 @@ export default function FullWidthTabs() {
 
           <TabPanel value={value} index={2} dir={theme.direction}>
             <div className="container mx-auto flex justify-center items-center overflow-hidden pb-[5%]">
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 lg:gap-8 gap-5">
+              <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 lg:gap-8 gap-4 md:gap-5">
                 {techStacks.map((stack, index) => (
                   <div
                     key={index}

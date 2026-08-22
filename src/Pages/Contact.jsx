@@ -117,11 +117,11 @@ const ContactPage = () => {
       >
         <div className="container mx-auto px-[5%] md:px-[10%] flex justify-center">
           <div
-            className="w-full max-w-7xl bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl p-5 py-10 sm:p-10 transform transition-all duration-500 hover:shadow-[#3b82f6]/10"
+            className="w-full max-w-7xl bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl p-4 py-6 sm:p-10 transform transition-all duration-500 hover:shadow-[#3b82f6]/10"
           >
             <div className="flex justify-between items-start mb-8">
               <div>
-                <h2 className="text-4xl font-bold mb-3 text-transparent bg-clip-text bg-gradient-to-r from-[#3b82f6] to-[#06B6D4]">
+                <h2 className="text-3xl md:text-4xl font-bold mb-3 text-transparent bg-clip-text bg-gradient-to-r from-[#3b82f6] to-[#06B6D4]">
                   Hubungi
                 </h2>
                 <p className="text-gray-400">
@@ -150,7 +150,7 @@ const ContactPage = () => {
                       value={formData.name}
                       onChange={handleChange}
                       disabled={isSubmitting}
-                      className="w-full p-4 pl-12 bg-white/10 rounded-xl border border-white/20 placeholder-gray-500 text-white focus:outline-none focus:ring-2 focus:ring-[#3b82f6]/30 transition-all duration-300 hover:border-[#3b82f6]/30 disabled:opacity-50"
+                      className="w-full p-3 md:p-4 pl-12 bg-white/10 rounded-xl border border-white/20 placeholder-gray-500 text-white focus:outline-none focus:ring-2 focus:ring-[#3b82f6]/30 transition-all duration-300 hover:border-[#3b82f6]/30 disabled:opacity-50"
                       required
                     />
                   </div>
@@ -167,7 +167,7 @@ const ContactPage = () => {
                       value={formData.email}
                       onChange={handleChange}
                       disabled={isSubmitting}
-                      className="w-full p-4 pl-12 bg-white/10 rounded-xl border border-white/20 placeholder-gray-500 text-white focus:outline-none focus:ring-2 focus:ring-[#3b82f6]/30 transition-all duration-300 hover:border-[#3b82f6]/30 disabled:opacity-50"
+                      className="w-full p-3 md:p-4 pl-12 bg-white/10 rounded-xl border border-white/20 placeholder-gray-500 text-white focus:outline-none focus:ring-2 focus:ring-[#3b82f6]/30 transition-all duration-300 hover:border-[#3b82f6]/30 disabled:opacity-50"
                       required
                     />
                   </div>
@@ -185,7 +185,7 @@ const ContactPage = () => {
                     value={formData.message}
                     onChange={handleChange}
                     disabled={isSubmitting}
-                    className="w-full resize-none p-4 pl-12 bg-white/10 rounded-xl border border-white/20 placeholder-gray-500 text-white focus:outline-none focus:ring-2 focus:ring-[#3b82f6]/30 transition-all duration-300 hover:border-[#3b82f6]/30 h-[9.9rem] disabled:opacity-50"
+                    className="w-full resize-none p-4 pl-12 bg-white/10 rounded-xl border border-white/20 placeholder-gray-500 text-white focus:outline-none focus:ring-2 focus:ring-[#3b82f6]/30 transition-all duration-300 hover:border-[#3b82f6]/30 h-[7rem] md:h-[9.9rem] disabled:opacity-50"
                     required
                   />
                 </div>
