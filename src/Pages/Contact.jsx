@@ -112,14 +112,14 @@ const ContactPage = () => {
 
 
       <div
-        className="h-auto py-10 flex items-center justify-center 2xl:pr-[3.1%] lg:pr-[3.8%]  md:px-0"
+        className="h-auto py-5 md:py-10 flex items-center justify-center 2xl:pr-[3.1%] lg:pr-[3.8%]  md:px-0"
         id="Contact"
       >
         <div className="container mx-auto px-[5%] md:px-[10%] flex justify-center">
           <div
             className="w-full max-w-7xl bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl p-4 py-6 sm:p-10 transform transition-all duration-500 hover:shadow-[#3b82f6]/10"
           >
-            <div className="flex justify-between items-start mb-8">
+            <div className="flex justify-between items-start mb-6 md:mb-8">
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-3 text-transparent bg-clip-text bg-gradient-to-r from-[#3b82f6] to-[#06B6D4]">
                   Hubungi
@@ -131,12 +131,12 @@ const ContactPage = () => {
               <Share2 className="w-10 h-10 text-[#3b82f6] opacity-50" />
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
               <form 
                 onSubmit={handleSubmit}
-                className="space-y-6"
+                className="space-y-4 md:space-y-6"
               >
-                <div className="grid grid-cols-1 gap-6">
+                <div className="grid grid-cols-1 gap-4 md:gap-6">
                   <div
                     data-aos="fade-up"
                     data-aos-delay="100"
@@ -201,7 +201,7 @@ const ContactPage = () => {
                 </button>
               </form>
 
-              <div className="flex flex-col justify-center space-y-6">
+              <div className="flex flex-col justify-center">
                 <SocialLinks />
               </div>
             </div>

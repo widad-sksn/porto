@@ -58,14 +58,14 @@ const SocialLinks = () => {
   return (
     <div className="w-full bg-gradient-to-br from-white/10 to-white/5 rounded-2xl p-4 py-6 md:p-6 md:py-8 backdrop-blur-xl">
       <h3
-        className="text-xl font-semibold text-white mb-6 flex items-center gap-2"
+        className="text-xl font-semibold text-white mb-4 md:mb-6 flex items-center gap-2"
         data-aos="fade-down" 
       >
         <span className="inline-block w-8 h-1 bg-blue-500 rounded-full"></span>
         Connect With Me
       </h3>
 
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-3 md:gap-4">
         {/* Email - Primary Row */}
         <a
           href={linkedIn.url}
@@ -84,7 +84,7 @@ const SocialLinks = () => {
           />
 
           {/* Content Container */}
-          <div className="relative flex items-center gap-4">
+          <div className="relative flex items-center gap-3 md:gap-4">
             {/* Icon Container */}
             <div className="relative flex items-center justify-center">
               <div
@@ -128,7 +128,7 @@ const SocialLinks = () => {
         </a>
 
         {/* Second Row - Other Links */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
           {otherLinks.map((link, index) => (
             <a
               key={link.name}
